@@ -33,4 +33,9 @@
 	self.view = view;
 }
 
+- (void)layoutSegmentedControl {
+	[super layoutSegmentedControl];
+	self.segmentedControl.frame = CGRectOffset(self.segmentedControl.frame, 0, 22);
+}
+
 @end

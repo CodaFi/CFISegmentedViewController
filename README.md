@@ -3,6 +3,8 @@ CFISegmentedViewController
 
 A specialized view controller that organizes view controllers and allows navigation between them via a segmented control.
 
+![Frosted Overlay Screenshot](https://raw.github.com/CodaFi/CFISegmentedViewController/master/Artwork/Screenshot.png)
+
 Setup
 =====
 
