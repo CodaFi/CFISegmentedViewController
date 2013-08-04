@@ -22,7 +22,6 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     self.viewController = [[CFIDemoViewController alloc]initWithContentRect:self.window.bounds];
 	[self.viewController setViewControllers:@[ [CFITodayViewController new], [CFIAllNotificationsViewController new], [CFIMissedViewController new] ]];
-	self.viewController.segmentedControl.tintColor = [UIColor blackColor];
 	self.window.rootViewController = self.viewController;
 	self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];

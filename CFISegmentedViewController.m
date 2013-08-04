@@ -92,9 +92,9 @@ static void CFICommonInit(CFISegmentedViewController *self) {
 	CGRect slice, remainder;
 	CGRectDivide(self.view.bounds, &slice, &remainder, 30, CGRectMinYEdge);
 	_contentView.frame = remainder;
-	
-	[self.view addSubview:_segmentedControl];
+
 	[self.view addSubview:_contentView];
+	[self.view addSubview:_segmentedControl];
 		
 	[super viewDidLoad];
 	
