@@ -31,12 +31,12 @@ static NSString *const CFIMissedNotificationsIdentifier = @"CFIMissedNotificatio
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
 	UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CFIMissedNotificationsIdentifier];
-    if (cell == nil) {
-        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:CFIMissedNotificationsIdentifier];
+	if (cell == nil) {
+		cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:CFIMissedNotificationsIdentifier];
 		cell.contentView.backgroundColor = UIColor.clearColor;
 		cell.backgroundColor = UIColor.clearColor;
 		cell.selectionStyle = UITableViewCellSelectionStyleNone;
-    }
+	}
 	return cell;
 }
 

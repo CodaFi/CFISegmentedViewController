@@ -74,9 +74,9 @@
 }
 
 - (void)dealloc {
-    CFI_SAFERELEASE(_segmentedControl);
+	CFI_SAFERELEASE(_segmentedControl);
 	_segmentedControl = nil;
-    CFI_SAFEDEALLOC;
+	CFI_SAFEDEALLOC;
 }
 
 static void CFICommonInit(CFISegmentedViewController *self) {
@@ -136,7 +136,7 @@ static void CFICommonInit(CFISegmentedViewController *self) {
 	_viewControllers = [viewControllers copy];
 
 	UIViewController *oldSelectedViewController = self.selectedViewController;
-    
+
 	for (UIViewController *viewController in _viewControllers) {
 		[viewController willMoveToParentViewController:nil];
 		[viewController removeFromParentViewController];
@@ -150,12 +150,12 @@ static void CFICommonInit(CFISegmentedViewController *self) {
 	} else {
 		_selectedSegmentIndex = 0;
 	}
-    
+
 	for (UIViewController *viewController in _viewControllers) {
 		[self addChildViewController:viewController];
 		[viewController didMoveToParentViewController:self];
 	}
-    
+
 	if ([self isViewLoaded])
 		[self _reloadSegments:NO];
 }
@@ -197,7 +197,7 @@ static void CFICommonInit(CFISegmentedViewController *self) {
 		_selectedSegmentIndex = selectedIndex;
 		
 		if (_selectedSegmentIndex != NSNotFound) {
-            [self.segmentedControl setSelectedSegmentIndex:_selectedSegmentIndex];
+			[self.segmentedControl setSelectedSegmentIndex:_selectedSegmentIndex];
 			toViewController = self.selectedViewController;
 		}
 		

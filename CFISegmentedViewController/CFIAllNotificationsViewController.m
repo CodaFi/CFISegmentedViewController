@@ -49,12 +49,12 @@ static NSString *const CFIAllNotificationsIdentifier = @"CFIAllNotificationsIden
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
 	UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CFIAllNotificationsIdentifier];
-    if (cell == nil) {
-        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:CFIAllNotificationsIdentifier];
+	if (cell == nil) {
+		cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:CFIAllNotificationsIdentifier];
 		cell.contentView.backgroundColor = UIColor.clearColor;
 		cell.backgroundColor = UIColor.clearColor;
 		cell.selectionStyle = UITableViewCellSelectionStyleNone;
-    }
+	}
 	return cell;
 }
 
