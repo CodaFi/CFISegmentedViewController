@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F033A0AD17AE05910047DF1C /* Wallpaper.png in Resources */ = {isa = PBXBuildFile; fileRef = F033A0AC17AE05910047DF1C /* Wallpaper.png */; };
+		F033A0B017AE0F720047DF1C /* CFITodayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F033A0AF17AE0F720047DF1C /* CFITodayViewController.m */; };
+		F033A0B317AE0FAE0047DF1C /* CFIMissedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F033A0B217AE0FAE0047DF1C /* CFIMissedViewController.m */; };
 		F04DF35417ADBC56007EE205 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F04DF35317ADBC56007EE205 /* Foundation.framework */; };
 		F04DF35617ADBC56007EE205 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F04DF35517ADBC56007EE205 /* CoreGraphics.framework */; };
 		F04DF35817ADBC56007EE205 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F04DF35717ADBC56007EE205 /* UIKit.framework */; };
@@ -19,6 +22,12 @@
 		F04DF36F17ADBC56007EE205 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F04DF35717ADBC56007EE205 /* UIKit.framework */; };
 		F04DF37717ADBC56007EE205 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F04DF37517ADBC56007EE205 /* InfoPlist.strings */; };
 		F04DF37917ADBC56007EE205 /* CFISegmentedViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F04DF37817ADBC56007EE205 /* CFISegmentedViewControllerTests.m */; };
+		F04F5EE417ADF7CA008599BA /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F04F5EE317ADF7CA008599BA /* SenTestingKit.framework */; };
+		F04F5EE817ADF7FB008599BA /* CFISegmentedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F04F5EE717ADF7FB008599BA /* CFISegmentedViewController.m */; };
+		F04F5EE917ADF7FB008599BA /* CFISegmentedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F04F5EE717ADF7FB008599BA /* CFISegmentedViewController.m */; };
+		F04F5EEC17ADF81C008599BA /* CFIDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F04F5EEB17ADF81C008599BA /* CFIDemoViewController.m */; };
+		F04F5EEF17ADF8B5008599BA /* CFIAllNotificationsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F04F5EEE17ADF8B5008599BA /* CFIAllNotificationsViewController.m */; };
+		F04F5EF317ADFFBB008599BA /* CFISegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = F04F5EF217ADFFBB008599BA /* CFISegmentedControl.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +41,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F033A0AC17AE05910047DF1C /* Wallpaper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Wallpaper.png; sourceTree = "<group>"; };
+		F033A0AE17AE0F720047DF1C /* CFITodayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFITodayViewController.h; sourceTree = "<group>"; };
+		F033A0AF17AE0F720047DF1C /* CFITodayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFITodayViewController.m; sourceTree = "<group>"; };
+		F033A0B117AE0FAE0047DF1C /* CFIMissedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFIMissedViewController.h; sourceTree = "<group>"; };
+		F033A0B217AE0FAE0047DF1C /* CFIMissedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFIMissedViewController.m; sourceTree = "<group>"; };
 		F04DF35017ADBC56007EE205 /* CFISegmentedViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CFISegmentedViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F04DF35317ADBC56007EE205 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		F04DF35517ADBC56007EE205 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
@@ -48,6 +62,15 @@
 		F04DF37417ADBC56007EE205 /* CFISegmentedViewControllerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CFISegmentedViewControllerTests-Info.plist"; sourceTree = "<group>"; };
 		F04DF37617ADBC56007EE205 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F04DF37817ADBC56007EE205 /* CFISegmentedViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CFISegmentedViewControllerTests.m; sourceTree = "<group>"; };
+		F04F5EE317ADF7CA008599BA /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		F04F5EE617ADF7FB008599BA /* CFISegmentedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFISegmentedViewController.h; sourceTree = SOURCE_ROOT; };
+		F04F5EE717ADF7FB008599BA /* CFISegmentedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFISegmentedViewController.m; sourceTree = SOURCE_ROOT; };
+		F04F5EEA17ADF81C008599BA /* CFIDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFIDemoViewController.h; sourceTree = "<group>"; };
+		F04F5EEB17ADF81C008599BA /* CFIDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFIDemoViewController.m; sourceTree = "<group>"; };
+		F04F5EED17ADF8B5008599BA /* CFIAllNotificationsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFIAllNotificationsViewController.h; sourceTree = "<group>"; };
+		F04F5EEE17ADF8B5008599BA /* CFIAllNotificationsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFIAllNotificationsViewController.m; sourceTree = "<group>"; };
+		F04F5EF117ADFFBB008599BA /* CFISegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFISegmentedControl.h; sourceTree = "<group>"; };
+		F04F5EF217ADFFBB008599BA /* CFISegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFISegmentedControl.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F04F5EE417ADF7CA008599BA /* SenTestingKit.framework in Frameworks */,
 				F04DF36D17ADBC56007EE205 /* XCTest.framework in Frameworks */,
 				F04DF36F17ADBC56007EE205 /* UIKit.framework in Frameworks */,
 				F04DF36E17ADBC56007EE205 /* Foundation.framework in Frameworks */,
@@ -77,7 +101,8 @@
 		F04DF34717ADBC56007EE205 = {
 			isa = PBXGroup;
 			children = (
-				F04DF35917ADBC56007EE205 /* CFISegmentedViewController */,
+				F04F5EE517ADF7E2008599BA /* Vendor */,
+				F04DF35917ADBC56007EE205 /* CFISegmentedViewControllerDemo */,
 				F04DF37217ADBC56007EE205 /* CFISegmentedViewControllerTests */,
 				F04DF35217ADBC56007EE205 /* Frameworks */,
 				F04DF35117ADBC56007EE205 /* Products */,
@@ -96,6 +121,7 @@
 		F04DF35217ADBC56007EE205 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F04F5EE317ADF7CA008599BA /* SenTestingKit.framework */,
 				F04DF35317ADBC56007EE205 /* Foundation.framework */,
 				F04DF35517ADBC56007EE205 /* CoreGraphics.framework */,
 				F04DF35717ADBC56007EE205 /* UIKit.framework */,
@@ -104,20 +130,32 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		F04DF35917ADBC56007EE205 /* CFISegmentedViewController */ = {
+		F04DF35917ADBC56007EE205 /* CFISegmentedViewControllerDemo */ = {
 			isa = PBXGroup;
 			children = (
 				F04DF36217ADBC56007EE205 /* CFIAppDelegate.h */,
 				F04DF36317ADBC56007EE205 /* CFIAppDelegate.m */,
+				F04F5EF117ADFFBB008599BA /* CFISegmentedControl.h */,
+				F04F5EF217ADFFBB008599BA /* CFISegmentedControl.m */,
+				F04F5EEA17ADF81C008599BA /* CFIDemoViewController.h */,
+				F04F5EEB17ADF81C008599BA /* CFIDemoViewController.m */,
+				F033A0AE17AE0F720047DF1C /* CFITodayViewController.h */,
+				F033A0AF17AE0F720047DF1C /* CFITodayViewController.m */,
+				F04F5EED17ADF8B5008599BA /* CFIAllNotificationsViewController.h */,
+				F04F5EEE17ADF8B5008599BA /* CFIAllNotificationsViewController.m */,
+				F033A0B117AE0FAE0047DF1C /* CFIMissedViewController.h */,
+				F033A0B217AE0FAE0047DF1C /* CFIMissedViewController.m */,
 				F04DF36517ADBC56007EE205 /* Images.xcassets */,
 				F04DF35A17ADBC56007EE205 /* Supporting Files */,
 			);
+			name = CFISegmentedViewControllerDemo;
 			path = CFISegmentedViewController;
 			sourceTree = "<group>";
 		};
 		F04DF35A17ADBC56007EE205 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				F033A0AC17AE05910047DF1C /* Wallpaper.png */,
 				F04DF35B17ADBC56007EE205 /* CFISegmentedViewController-Info.plist */,
 				F04DF35C17ADBC56007EE205 /* InfoPlist.strings */,
 				F04DF35F17ADBC56007EE205 /* main.m */,
@@ -142,6 +180,16 @@
 				F04DF37517ADBC56007EE205 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F04F5EE517ADF7E2008599BA /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				F04F5EE617ADF7FB008599BA /* CFISegmentedViewController.h */,
+				F04F5EE717ADF7FB008599BA /* CFISegmentedViewController.m */,
+			);
+			name = Vendor;
+			path = CFISegmentedViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -221,6 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F04DF35E17ADBC56007EE205 /* InfoPlist.strings in Resources */,
+				F033A0AD17AE05910047DF1C /* Wallpaper.png in Resources */,
 				F04DF36617ADBC56007EE205 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -240,8 +289,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F04F5EEC17ADF81C008599BA /* CFIDemoViewController.m in Sources */,
 				F04DF36017ADBC56007EE205 /* main.m in Sources */,
+				F033A0B317AE0FAE0047DF1C /* CFIMissedViewController.m in Sources */,
+				F04F5EE817ADF7FB008599BA /* CFISegmentedViewController.m in Sources */,
+				F033A0B017AE0F720047DF1C /* CFITodayViewController.m in Sources */,
+				F04F5EF317ADFFBB008599BA /* CFISegmentedControl.m in Sources */,
 				F04DF36417ADBC56007EE205 /* CFIAppDelegate.m in Sources */,
+				F04F5EEF17ADF8B5008599BA /* CFIAllNotificationsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +304,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F04F5EE917ADF7FB008599BA /* CFISegmentedViewController.m in Sources */,
 				F04DF37917ADBC56007EE205 /* CFISegmentedViewControllerTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -363,6 +419,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CFISegmentedViewController/CFISegmentedViewController-Prefix.pch";
 				INFOPLIST_FILE = "CFISegmentedViewController/CFISegmentedViewController-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -380,6 +437,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CFISegmentedViewController/CFISegmentedViewController-Prefix.pch";
 				INFOPLIST_FILE = "CFISegmentedViewController/CFISegmentedViewController-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -444,6 +502,7 @@
 				F04DF37E17ADBC56007EE205 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F04DF37F17ADBC56007EE205 /* Build configuration list for PBXNativeTarget "CFISegmentedViewControllerTests" */ = {
 			isa = XCConfigurationList;
@@ -452,6 +511,7 @@
 				F04DF38117ADBC56007EE205 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
